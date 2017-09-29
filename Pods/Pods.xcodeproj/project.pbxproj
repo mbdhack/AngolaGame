@@ -3,109 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0FF5C2AC598006B9FCF21FE5D09FA8 /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6834894E3B8761F97358D0191A4EF /* TZStackViewAlignment.swift */; };
-		0D2BD0BEA7D6AD0E0A8C11C266B99EEE /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BF833381BA0B8270E90BEB6C7736E /* PopupDialog+Keyboard.swift */; };
-		0E36C456874397D542D355E474AB4284 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 174004592DC4D7134E396408FB37FDD0 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12895EEEC14E16D9F35E242B674F4F71 /* Pods-AngolaGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 583BA222B089467F235EA70EEEBB3B5F /* Pods-AngolaGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18180276B271696C7AC51FBB521E6681 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F5A49DD1D177EF84AB8B9A5FFDA5E0 /* UIViewController+Visibility.swift */; };
-		317A6E88904BAAB03A6E7D7570EDB019 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3691D0E94E30D2871A7734731FCCB7 /* PopupDialogDefaultButtons.swift */; };
-		4EDCED923A695E5D6FF73F67C6AFCC76 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78E6CAFB5533606A9D1339B2485844 /* PopupDialogContainerView.swift */; };
-		5883EE10920F56EB890545E6B17BFC1E /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55668E5423A3465C873E089E56864EA1 /* TZStackViewDistribution.swift */; };
-		613D1AE81EBD0EF9475DD06AF9D3529B /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EF11A3F689D86AB6620C2E3CAB44E /* UIImageView+Calculations.swift */; };
-		713D87A010609036E44F0B0D362D8345 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B28539055F9BB46BA8464F19CB977B /* PopupDialogOverlayView.swift */; };
-		7AB2A48E5A21D553D481EA2169C0DD27 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E643CFF8C4B2D75BB301A58E6E104FA /* PopupDialogDefaultView.swift */; };
-		90CED0FD1B24A329E4768E9F36759AF4 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5D57D36E7CC7A799A7ACD06A09EEB /* UIView+Animations.swift */; };
-		91125B78250A911BF5C6A5A011881F4E /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1349BE264845ECB018BEEC70E6841AD8 /* PopupDialog.swift */; };
-		9DE8798A9F8A5BF263483E00009F9AF9 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB1A5F7C7F01B36A07F25B69400E457 /* TransitionAnimations.swift */; };
-		A2A5E4B3C38E8AE48FD3CFA30AC08E14 /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C936E620EC6970A0199688ECF57836 /* TZStackView.swift */; };
-		A84987966D5CB1BD1EFCB225AB1E068F /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D7E93D8D1042BE8CC110144B3BB72 /* TZSpacerView.swift */; };
-		B54ABC6EE7F5CDF0D4E63D2D1EE8EEBD /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4983DBF4904CD9552F1F0DDE1863086 /* PopupDialog-dummy.m */; };
-		B94AF8706CC7F290332FF83E5415AED7 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC1B538426D33DF88AA2BBA64C5D4D /* InteractiveTransition.swift */; };
-		BAF8A505B109CC5EDF3FDBEB37902DDF /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D1F99C8F741BA97A3312AB8DCBDC42 /* FXBlurView.m */; };
-		BBEA6836055B56E22A536563F0FDB6F1 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7966FA57B9C3CE6CDF172740915D9F27 /* PopupDialogDefaultViewController.swift */; };
-		C686D5515767C16574C4EAAEA2910AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CD6F13AE28C3151F1279FB9BDCFBFE5E /* Pods-AngolaGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8530B0E6E7C26B8AEC2EC559DA2E625 /* Pods-AngolaGameUITests-dummy.m */; };
-		D358B01DCA35E4286B668C228260D97A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D59A5A368E7EF56BD1838478BDC02E4C /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 972B98C0B2928113A1F2F2C739619292 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5D1D48506FC045923636F8C7261F1B8 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD582BD2A80D64704F62018F13F21A /* TransitionAnimator.swift */; };
-		EB146397261EF9011925D27557619882 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31677F3ADE8B7E9657D3EDBCE9A8D14 /* PresentationController.swift */; };
-		EFDC068520CFF8924B674ABB338337E2 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E169E21310A7E5888B907B1F4CDC49 /* PopupDialogButton.swift */; };
-		F0762E7329459DEB8334DB0FE662744F /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12206907B0D51E6757B5882DDAFC027 /* PresentationManager.swift */; };
+		4B00DA3A0A6C85EC86CB6C7C308944E3 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		740BAE6C803434EAB9F286ADA105FA7E /* Pods-AngolaGameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 583BA222B089467F235EA70EEEBB3B5F /* Pods-AngolaGameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80219257AE87D3F3223F9231E17E4735 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */; };
+		94B9B76B4C7F75B2E235EF37906B9A81 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */; };
+		BFFC7EF97D7C25CD29322E36BC7E80A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D6CCFB87099A68CA4502984AF0C6AE80 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */; };
+		E3A247F78BA0E17FDBDBC326504771D9 /* Pods-AngolaGameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8530B0E6E7C26B8AEC2EC559DA2E625 /* Pods-AngolaGameUITests-dummy.m */; };
+		F84D73F8729C74935CF4AA2DD096391D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C5DF562A699F13CCD40A3B1C099D936B /* PBXContainerItemProxy */ = {
+		D9107FFC94BD8A5A42F655435F9CA08A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6C19F7E201C8C4F07731F1902E3B44FB;
-			remoteInfo = PopupDialog;
+			remoteGlobalIDString = C405E8A0E66179A0786B3E15ED6FE52F;
+			remoteInfo = SCLAlertView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B5BF833381BA0B8270E90BEB6C7736E /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
-		0E643CFF8C4B2D75BB301A58E6E104FA /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
-		1349BE264845ECB018BEEC70E6841AD8 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
-		174004592DC4D7134E396408FB37FDD0 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
-		1AB6834894E3B8761F97358D0191A4EF /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewAlignment.swift; path = PopupDialog/Classes/TZStackView/TZStackViewAlignment.swift; sourceTree = "<group>"; };
-		32071951FF7BF37829D977BF7D01DF40 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
-		44EE375F5D090D4BAC4D95881A007595 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
-		45F5A49DD1D177EF84AB8B9A5FFDA5E0 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
-		55668E5423A3465C873E089E56864EA1 /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackViewDistribution.swift; path = PopupDialog/Classes/TZStackView/TZStackViewDistribution.swift; sourceTree = "<group>"; };
+		18DA4035587B16C18BA510E9CBEA4D51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
 		575AEB973C953D8C586701B768BB3439 /* Pods-AngolaGameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngolaGameUITests-resources.sh"; sourceTree = "<group>"; };
 		583BA222B089467F235EA70EEEBB3B5F /* Pods-AngolaGameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AngolaGameUITests-umbrella.h"; sourceTree = "<group>"; };
-		59B28539055F9BB46BA8464F19CB977B /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
-		5A975197D2A1A357FAF5FFB9D02C2FD4 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PopupDialog.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66FD582BD2A80D64704F62018F13F21A /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
 		6B2431727C9146C879476E08075F73C2 /* Pods-AngolaGameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AngolaGameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		743952B309E32A587310E404CAEAA306 /* Pods-AngolaGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngolaGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7966FA57B9C3CE6CDF172740915D9F27 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
-		7EB2518E7235B1198D6E04A2690CBF1A /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		7D8B5E7D5388DE2E7301AF687AB640F1 /* Pods_AngolaGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AngolaGameUITests.framework; path = "Pods-AngolaGameUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECDC16656AFBBE47F2170D85FD24A43 /* Pods-AngolaGameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AngolaGameUITests-frameworks.sh"; sourceTree = "<group>"; };
-		81C936E620EC6970A0199688ECF57836 /* TZStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZStackView.swift; path = PopupDialog/Classes/TZStackView/TZStackView.swift; sourceTree = "<group>"; };
-		85F4CB929C110D47E46AAE5D6C16A5BC /* Pods-AngolaGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AngolaGameUITests.modulemap"; sourceTree = "<group>"; };
-		8D7C1B0D4FC51B73E7B6D1F14A126377 /* Pods_AngolaGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngolaGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E78E6CAFB5533606A9D1339B2485844 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95F5D57D36E7CC7A799A7ACD06A09EEB /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
-		972B98C0B2928113A1F2F2C739619292 /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = PopupDialog/Classes/FXBlurView.h; sourceTree = "<group>"; };
-		A53D7E93D8D1042BE8CC110144B3BB72 /* TZSpacerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TZSpacerView.swift; path = PopupDialog/Classes/TZStackView/TZSpacerView.swift; sourceTree = "<group>"; };
+		85F4CB929C110D47E46AAE5D6C16A5BC /* Pods-AngolaGameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AngolaGameUITests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A8579CC2345CFBEEC7F4D9A84724486 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7763395C8C04E150316100DDF0AEDCB /* Pods-AngolaGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AngolaGameUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A920A4DE7E9BF1A94C01FE36EBF60BF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1E169E21310A7E5888B907B1F4CDC49 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
 		BC74614F1A2EB30FC61CF68E216EB721 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C12206907B0D51E6757B5882DDAFC027 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
-		C31677F3ADE8B7E9657D3EDBCE9A8D14 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
-		C3DC1B538426D33DF88AA2BBA64C5D4D /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		C45D746DA9491DFA3EF811FE6BAFDF5D /* Pods-AngolaGameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AngolaGameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D72EF11A3F689D86AB6620C2E3CAB44E /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
 		D8530B0E6E7C26B8AEC2EC559DA2E625 /* Pods-AngolaGameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AngolaGameUITests-dummy.m"; sourceTree = "<group>"; };
-		DAB1A5F7C7F01B36A07F25B69400E457 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
-		E0D1F99C8F741BA97A3312AB8DCBDC42 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = PopupDialog/Classes/FXBlurView.m; sourceTree = "<group>"; };
-		E4983DBF4904CD9552F1F0DDE1863086 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
-		FF3691D0E94E30D2871A7734731FCCB7 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		ED09B8D16E50B7F2DAED9CF350FEF481 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		F7AF306D2AAF90D6D06E15543364D4C7 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6CF61AD28F3892F8D57D8A010D44EDC5 /* Frameworks */ = {
+		07E74806881555BD856E7A24CA002995 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D358B01DCA35E4286B668C228260D97A /* Foundation.framework in Frameworks */,
+				F84D73F8729C74935CF4AA2DD096391D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1FCC3584567F084006CB6E9AF196567 /* Frameworks */ = {
+		2CE93C53D11F6B9CE8D28870D0266587 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C686D5515767C16574C4EAAEA2910AC1 /* Foundation.framework in Frameworks */,
+				BFFC7EF97D7C25CD29322E36BC7E80A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,12 +90,38 @@
 			path = "Target Support Files/Pods-AngolaGameUITests";
 			sourceTree = "<group>";
 		};
-		4358F76AF329B9AD752A3BFEEE7948F9 /* Pods */ = {
+		21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				F6742863B8F74A3EB0EF90D4E14622D3 /* PopupDialog */,
+				53D7C12624AB36573B17A345B5C28FFE /* SCLAlertView.swift */,
+				79976012D991BBCB570D7574B6552363 /* SCLExtensions.swift */,
+				42753F0DBF438AAF17062729B2173DED /* Support Files */,
 			);
-			name = Pods;
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		42753F0DBF438AAF17062729B2173DED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DA4035587B16C18BA510E9CBEA4D51 /* Info.plist */,
+				ED09B8D16E50B7F2DAED9CF350FEF481 /* SCLAlertView.modulemap */,
+				4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */,
+				D826BF6AA60C0C13D9E2DD5CE5604CD4 /* SCLAlertView-dummy.m */,
+				F7AF306D2AAF90D6D06E15543364D4C7 /* SCLAlertView-prefix.pch */,
+				780E9115DC64E18BDE0435285E9D4F4D /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		5BDF6FB18408BB898D46E29591FF77D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B5E7D5388DE2E7301AF687AB640F1 /* Pods_AngolaGameUITests.framework */,
+				9A8579CC2345CFBEEC7F4D9A84724486 /* SCLAlertView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -143,19 +129,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4358F76AF329B9AD752A3BFEEE7948F9 /* Pods */,
-				887DAF67A6F7FCD303736EBF6701A6A6 /* Products */,
+				CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */,
+				5BDF6FB18408BB898D46E29591FF77D3 /* Products */,
 				C2E55A88E0CF9A3BD1D150EB96468C15 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		887DAF67A6F7FCD303736EBF6701A6A6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D7C1B0D4FC51B73E7B6D1F14A126377 /* Pods_AngolaGameUITests.framework */,
-				7EB2518E7235B1198D6E04A2690CBF1A /* PopupDialog.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -174,6 +151,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CE1D7C96A3A3C0CED68FBC36DB57C4C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21236440975E0D8924F5FBFD0C9D1478 /* SCLAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,106 +167,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F6742863B8F74A3EB0EF90D4E14622D3 /* PopupDialog */ = {
-			isa = PBXGroup;
-			children = (
-				972B98C0B2928113A1F2F2C739619292 /* FXBlurView.h */,
-				E0D1F99C8F741BA97A3312AB8DCBDC42 /* FXBlurView.m */,
-				C3DC1B538426D33DF88AA2BBA64C5D4D /* InteractiveTransition.swift */,
-				1349BE264845ECB018BEEC70E6841AD8 /* PopupDialog.swift */,
-				0B5BF833381BA0B8270E90BEB6C7736E /* PopupDialog+Keyboard.swift */,
-				B1E169E21310A7E5888B907B1F4CDC49 /* PopupDialogButton.swift */,
-				8E78E6CAFB5533606A9D1339B2485844 /* PopupDialogContainerView.swift */,
-				FF3691D0E94E30D2871A7734731FCCB7 /* PopupDialogDefaultButtons.swift */,
-				0E643CFF8C4B2D75BB301A58E6E104FA /* PopupDialogDefaultView.swift */,
-				7966FA57B9C3CE6CDF172740915D9F27 /* PopupDialogDefaultViewController.swift */,
-				59B28539055F9BB46BA8464F19CB977B /* PopupDialogOverlayView.swift */,
-				C31677F3ADE8B7E9657D3EDBCE9A8D14 /* PresentationController.swift */,
-				C12206907B0D51E6757B5882DDAFC027 /* PresentationManager.swift */,
-				DAB1A5F7C7F01B36A07F25B69400E457 /* TransitionAnimations.swift */,
-				66FD582BD2A80D64704F62018F13F21A /* TransitionAnimator.swift */,
-				A53D7E93D8D1042BE8CC110144B3BB72 /* TZSpacerView.swift */,
-				81C936E620EC6970A0199688ECF57836 /* TZStackView.swift */,
-				1AB6834894E3B8761F97358D0191A4EF /* TZStackViewAlignment.swift */,
-				55668E5423A3465C873E089E56864EA1 /* TZStackViewDistribution.swift */,
-				D72EF11A3F689D86AB6620C2E3CAB44E /* UIImageView+Calculations.swift */,
-				95F5D57D36E7CC7A799A7ACD06A09EEB /* UIView+Animations.swift */,
-				45F5A49DD1D177EF84AB8B9A5FFDA5E0 /* UIViewController+Visibility.swift */,
-				FE169DD16A907100E37260580C5DC4A0 /* Support Files */,
-			);
-			path = PopupDialog;
-			sourceTree = "<group>";
-		};
-		FE169DD16A907100E37260580C5DC4A0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A920A4DE7E9BF1A94C01FE36EBF60BF0 /* Info.plist */,
-				5A975197D2A1A357FAF5FFB9D02C2FD4 /* PopupDialog.modulemap */,
-				32071951FF7BF37829D977BF7D01DF40 /* PopupDialog.xcconfig */,
-				E4983DBF4904CD9552F1F0DDE1863086 /* PopupDialog-dummy.m */,
-				44EE375F5D090D4BAC4D95881A007595 /* PopupDialog-prefix.pch */,
-				174004592DC4D7134E396408FB37FDD0 /* PopupDialog-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PopupDialog";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FE017F334023F4A4C84A521FA02C9571 /* Headers */ = {
+		A7E3D3837DE5E1B1B7017E6006CAA445 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12895EEEC14E16D9F35E242B674F4F71 /* Pods-AngolaGameUITests-umbrella.h in Headers */,
+				4B00DA3A0A6C85EC86CB6C7C308944E3 /* SCLAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEB25BA5347666C8A303105880F633E2 /* Headers */ = {
+		E7C551207722468958E4A56B22A1E57D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59A5A368E7EF56BD1838478BDC02E4C /* FXBlurView.h in Headers */,
-				0E36C456874397D542D355E474AB4284 /* PopupDialog-umbrella.h in Headers */,
+				740BAE6C803434EAB9F286ADA105FA7E /* Pods-AngolaGameUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		40E95EB8041D40CA39E86168883C6D85 /* Pods-AngolaGameUITests */ = {
+		A2488CA8D7C302785DD1DCD43F38378E /* Pods-AngolaGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72658AF00AF40C35CD026A3170697CFE /* Build configuration list for PBXNativeTarget "Pods-AngolaGameUITests" */;
+			buildConfigurationList = 060382587475B236AB6ED6C9BAD36E3A /* Build configuration list for PBXNativeTarget "Pods-AngolaGameUITests" */;
 			buildPhases = (
-				F114DEF512F194891A9C8BF0D717B925 /* Sources */,
-				A1FCC3584567F084006CB6E9AF196567 /* Frameworks */,
-				FE017F334023F4A4C84A521FA02C9571 /* Headers */,
+				9490C727403F8A3DB5C7AB23FC527CCE /* Sources */,
+				07E74806881555BD856E7A24CA002995 /* Frameworks */,
+				E7C551207722468958E4A56B22A1E57D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BDD976B1A47214AA10E86A353638AAFE /* PBXTargetDependency */,
+				EBE7854E636297E994EB0E726C11F223 /* PBXTargetDependency */,
 			);
 			name = "Pods-AngolaGameUITests";
 			productName = "Pods-AngolaGameUITests";
-			productReference = 8D7C1B0D4FC51B73E7B6D1F14A126377 /* Pods_AngolaGameUITests.framework */;
+			productReference = 7D8B5E7D5388DE2E7301AF687AB640F1 /* Pods_AngolaGameUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6C19F7E201C8C4F07731F1902E3B44FB /* PopupDialog */ = {
+		C405E8A0E66179A0786B3E15ED6FE52F /* SCLAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E65DAE8906F2B7E12045C9C0A82BE807 /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildConfigurationList = 39F44BF79C8839DC9B72D76D4F9FC25D /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
 			buildPhases = (
-				B50B954AA1633277A7BDCD57A485A73D /* Sources */,
-				6CF61AD28F3892F8D57D8A010D44EDC5 /* Frameworks */,
-				FEB25BA5347666C8A303105880F633E2 /* Headers */,
+				0DA277EA1825CC767816065D7D14D152 /* Sources */,
+				2CE93C53D11F6B9CE8D28870D0266587 /* Frameworks */,
+				A7E3D3837DE5E1B1B7017E6006CAA445 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PopupDialog;
-			productName = PopupDialog;
-			productReference = 7EB2518E7235B1198D6E04A2690CBF1A /* PopupDialog.framework */;
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 9A8579CC2345CFBEEC7F4D9A84724486 /* SCLAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,11 +232,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					40E95EB8041D40CA39E86168883C6D85 = {
-						LastSwiftMigration = "";
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -306,62 +241,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 887DAF67A6F7FCD303736EBF6701A6A6 /* Products */;
+			productRefGroup = 5BDF6FB18408BB898D46E29591FF77D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40E95EB8041D40CA39E86168883C6D85 /* Pods-AngolaGameUITests */,
-				6C19F7E201C8C4F07731F1902E3B44FB /* PopupDialog */,
+				A2488CA8D7C302785DD1DCD43F38378E /* Pods-AngolaGameUITests */,
+				C405E8A0E66179A0786B3E15ED6FE52F /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B50B954AA1633277A7BDCD57A485A73D /* Sources */ = {
+		0DA277EA1825CC767816065D7D14D152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF8A505B109CC5EDF3FDBEB37902DDF /* FXBlurView.m in Sources */,
-				B94AF8706CC7F290332FF83E5415AED7 /* InteractiveTransition.swift in Sources */,
-				0D2BD0BEA7D6AD0E0A8C11C266B99EEE /* PopupDialog+Keyboard.swift in Sources */,
-				B54ABC6EE7F5CDF0D4E63D2D1EE8EEBD /* PopupDialog-dummy.m in Sources */,
-				91125B78250A911BF5C6A5A011881F4E /* PopupDialog.swift in Sources */,
-				EFDC068520CFF8924B674ABB338337E2 /* PopupDialogButton.swift in Sources */,
-				4EDCED923A695E5D6FF73F67C6AFCC76 /* PopupDialogContainerView.swift in Sources */,
-				317A6E88904BAAB03A6E7D7570EDB019 /* PopupDialogDefaultButtons.swift in Sources */,
-				7AB2A48E5A21D553D481EA2169C0DD27 /* PopupDialogDefaultView.swift in Sources */,
-				BBEA6836055B56E22A536563F0FDB6F1 /* PopupDialogDefaultViewController.swift in Sources */,
-				713D87A010609036E44F0B0D362D8345 /* PopupDialogOverlayView.swift in Sources */,
-				EB146397261EF9011925D27557619882 /* PresentationController.swift in Sources */,
-				F0762E7329459DEB8334DB0FE662744F /* PresentationManager.swift in Sources */,
-				9DE8798A9F8A5BF263483E00009F9AF9 /* TransitionAnimations.swift in Sources */,
-				D5D1D48506FC045923636F8C7261F1B8 /* TransitionAnimator.swift in Sources */,
-				A84987966D5CB1BD1EFCB225AB1E068F /* TZSpacerView.swift in Sources */,
-				A2A5E4B3C38E8AE48FD3CFA30AC08E14 /* TZStackView.swift in Sources */,
-				0A0FF5C2AC598006B9FCF21FE5D09FA8 /* TZStackViewAlignment.swift in Sources */,
-				5883EE10920F56EB890545E6B17BFC1E /* TZStackViewDistribution.swift in Sources */,
-				613D1AE81EBD0EF9475DD06AF9D3529B /* UIImageView+Calculations.swift in Sources */,
-				90CED0FD1B24A329E4768E9F36759AF4 /* UIView+Animations.swift in Sources */,
-				18180276B271696C7AC51FBB521E6681 /* UIViewController+Visibility.swift in Sources */,
+				80219257AE87D3F3223F9231E17E4735 /* SCLAlertView-dummy.m in Sources */,
+				94B9B76B4C7F75B2E235EF37906B9A81 /* SCLAlertView.swift in Sources */,
+				D6CCFB87099A68CA4502984AF0C6AE80 /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F114DEF512F194891A9C8BF0D717B925 /* Sources */ = {
+		9490C727403F8A3DB5C7AB23FC527CCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6F13AE28C3151F1279FB9BDCFBFE5E /* Pods-AngolaGameUITests-dummy.m in Sources */,
+				E3A247F78BA0E17FDBDBC326504771D9 /* Pods-AngolaGameUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BDD976B1A47214AA10E86A353638AAFE /* PBXTargetDependency */ = {
+		EBE7854E636297E994EB0E726C11F223 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PopupDialog;
-			target = 6C19F7E201C8C4F07731F1902E3B44FB /* PopupDialog */;
-			targetProxy = C5DF562A699F13CCD40A3B1C099D936B /* PBXContainerItemProxy */;
+			name = SCLAlertView;
+			target = C405E8A0E66179A0786B3E15ED6FE52F /* SCLAlertView */;
+			targetProxy = D9107FFC94BD8A5A42F655435F9CA08A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,45 +330,7 @@
 			};
 			name = Debug;
 		};
-		96CB58E73F7D63C6DB9C1BE07E83F4F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7763395C8C04E150316100DDF0AEDCB /* Pods-AngolaGameUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AngolaGameUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AngolaGameUITests/Pods-AngolaGameUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AngolaGameUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B798E51C5330A82F5A74F4810CC1CA3B /* Debug */ = {
+		800DEA0A18515C5B8F421F5F3CCA90B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 743952B309E32A587310E404CAEAA306 /* Pods-AngolaGameUITests.debug.xcconfig */;
 			buildSettings = {
@@ -485,6 +363,41 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87B911785AF4511FF277912519469600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -535,44 +448,9 @@
 			};
 			name = Release;
 		};
-		C80152F66D5C70FE8F021B0BF63AF272 /* Debug */ = {
+		D25C57E8FB01968A005E89275AA51617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32071951FF7BF37829D977BF7D01DF40 /* PopupDialog.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PopupDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBB34FCD82DE5BFFAE211ACC49AB717B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32071951FF7BF37829D977BF7D01DF40 /* PopupDialog.xcconfig */;
+			baseConfigurationReference = A7763395C8C04E150316100DDF0AEDCB /* Pods-AngolaGameUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,14 +464,52 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AngolaGameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AngolaGameUITests/Pods-AngolaGameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AngolaGameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB09A505849E82F5ADE245CD6F038ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A915754953BDE3FBECB5447865A4567 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PopupDialog;
+				PRODUCT_NAME = SCLAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -607,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		060382587475B236AB6ED6C9BAD36E3A /* Build configuration list for PBXNativeTarget "Pods-AngolaGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800DEA0A18515C5B8F421F5F3CCA90B7 /* Debug */,
+				D25C57E8FB01968A005E89275AA51617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -616,20 +541,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72658AF00AF40C35CD026A3170697CFE /* Build configuration list for PBXNativeTarget "Pods-AngolaGameUITests" */ = {
+		39F44BF79C8839DC9B72D76D4F9FC25D /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B798E51C5330A82F5A74F4810CC1CA3B /* Debug */,
-				96CB58E73F7D63C6DB9C1BE07E83F4F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E65DAE8906F2B7E12045C9C0A82BE807 /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C80152F66D5C70FE8F021B0BF63AF272 /* Debug */,
-				CBB34FCD82DE5BFFAE211ACC49AB717B /* Release */,
+				87B911785AF4511FF277912519469600 /* Debug */,
+				FB09A505849E82F5ADE245CD6F038ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

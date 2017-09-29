@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6C19F7E201C8C4F07731F1902E3B44FB'
-               BlueprintName = 'PopupDialog'
+               BlueprintIdentifier = 'C405E8A0E66179A0786B3E15ED6FE52F'
+               BlueprintName = 'SCLAlertView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PopupDialog.framework'>
+               BuildableName = 'SCLAlertView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

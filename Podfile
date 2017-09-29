@@ -4,7 +4,7 @@
 
  target 'AngolaGameUITests' do
    
-     pod 'PopupDialog', '~> 0.5'
+     pod 'SCLAlertView'
  
 
  end

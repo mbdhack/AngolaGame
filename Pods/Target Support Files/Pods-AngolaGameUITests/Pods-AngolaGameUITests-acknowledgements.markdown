@@ -1,10 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PopupDialog
+## SCLAlertView
 
-Copyright (c) 2016 Orderella Ltd. (http://orderella.co.uk)
-Author - Martin Wildfeuer (http://www.mwfire.de)
+Copyright (c) 2013-2014 SCPopUpView by Viktor Radchenko
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

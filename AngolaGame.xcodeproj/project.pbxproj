@@ -58,6 +58,7 @@
 		84C47E131F7EEE7D003F15D3 /* ImageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClass.swift; sourceTree = "<group>"; };
 		84C47E151F7EF1BE003F15D3 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
 		84C47E171F7F0167003F15D3 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		84C47E1A1F7F09A6003F15D3 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14CB2C4C102514957688E3E /* Pods-AngolaGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaGameUITests/Pods-AngolaGameUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C39B90A28EF337D920B87009 /* Pods_AngolaGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngolaGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38754656C5F690A0585815F /* Pods-AngolaGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngolaGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AngolaGameUITests/Pods-AngolaGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		574637DC4DF38BDB0BE11625 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84C47E1A1F7F09A6003F15D3 /* PopupDialog.framework */,
 				C39B90A28EF337D920B87009 /* Pods_AngolaGameUITests.framework */,
 			);
 			name = Frameworks;

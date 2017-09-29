@@ -8,9 +8,10 @@
 
 import UIKit
 import GameplayKit
+//import SCLAlertView
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate   {
     
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var timerLabel: UILabel!
@@ -32,6 +33,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.imagePosition()
          time = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updatetime), userInfo: nil, repeats: true)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.handleTap(_:)))
+        tap.delegate = self
+        imagevIew.addGestureRecognizer(tap)
+        imagevIew.isUserInteractionEnabled = true
+//         imagevIew.isHidden = true
          startTimer()
         
     }
@@ -56,6 +62,7 @@ class ViewController: UIViewController {
             countTime -= 1
         }else {
             endTimer()
+            imagevIew.isHidden = false
 //            alertViewtoshow()
         }
     }
@@ -71,7 +78,7 @@ class ViewController: UIViewController {
     }
     func restartTimer(){
         countTime = 10
-        self.timerLabel.text = "\(timeFormatted(self.countTime))"
+        self.timerLabel.text = "\(timeFormatted(self.countTime)) sec"
         imagePosition()
     }
     func resetScore(completed: @escaping Completed){
@@ -89,6 +96,18 @@ class ViewController: UIViewController {
         } else {
             return false
         }
+    }
+    @objc func handleTap(_ gestureRecognizer: UITapGestureRecognizer){
+        score += 1
+        self.scoreLabel.text = "\(score)"
+        imagevIew.isHidden = false
+        print(score)
+        imagevIew.isHidden = true
+        restartTimer()
+        resetScore{
+            self.scoreLabel.text = "0"
+        }
+        print("tst")
     }
 //    func alertViewtoshow(){
 ////        userDefaults.set(score, forKey: "ScoreData")
